@@ -370,9 +370,9 @@
 
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M -120 0
-        C -120 0 -80 5 -55 40
-        C -45 55 -25 70 0 70
-        C 25 70 45 55 55 40
+        C -120 0 -80 5 -55 35
+        C -45 50 -25 65 0 65
+        C 25 65 45 50 55 35
         C 80 5 120 0 120 0
         L -120 0
         Z
