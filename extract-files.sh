@@ -52,7 +52,7 @@ fi
 
 set -e
 
-export DEVICE=monet
+export DEVICE=vangogh
 export DEVICE_COMMON=sm7250-common
 export VENDOR=xiaomi
 
