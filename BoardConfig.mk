@@ -25,10 +25,5 @@ SOONG_CONFIG_XIAOMI_LITO_FOD_SIZE = 190
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/vangogh_user_defconfig
 
-# Prebuilt
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
-BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-BOARD_INCLUDE_DTB_IN_BOOTIMG :=
-
 # Inherit from the proprietary version
 include vendor/xiaomi/vangogh/BoardConfigVendor.mk
