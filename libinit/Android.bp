@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libinit_vangogh",
+    defaults: ["//device/xiaomi/sm7250-common:libinit_lito_defaults"],
+    srcs: ["init_vangogh.cpp"],
+    whole_static_libs: ["//device/xiaomi/sm7250-common:libinit_lito"],
+}
