@@ -21,3 +21,8 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi Mi 10 Lite Zoom
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="vangogh 11 RKQ1.200826.002 V12.1.7.0.RJVCNXM release-keys"
+
+BUILD_FINGERPRINT := Xiaomi/vangogh/vangogh:11/RKQ1.200826.002/V12.1.7.0.RJVCNXM:user/release-keys
